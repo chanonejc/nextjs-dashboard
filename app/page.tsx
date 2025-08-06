@@ -26,6 +26,12 @@ export default function Page() {
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
+          <Link
+            href="/dashboard"
+            className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+          >
+            <span>Go to Dashboard</span> <ArrowRightIcon className="w-5 md:w-6" />
+          </Link>
           <p className={ `${inter.className} antialiased`}>Guys,, i'm using this website to learn about next.js and create my own digital library!
             <br />Let's see where this journey takes me.
             <br />This is another step in my journey to becoming a better developer.
